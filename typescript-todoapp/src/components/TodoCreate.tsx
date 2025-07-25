@@ -22,7 +22,7 @@ function TodoCreate() {
     <div className="todo-create">
       <input
         value={newTodo}
-        onChange={(e: React.ChangeEvent<HTMLInputElem>) =>
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setNewTodo(e.target.value)
         }
         className="todo-input"
